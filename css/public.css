@@ -1,0 +1,54 @@
+.loadInit{position:absolute; left:50%; top:50%; transform: translate(-50%, -70%);  clear: both;height: 8rem;}	
+.loadInit span{
+	background: none !important;
+	width: 1.555rem !important;
+	height: 1.555rem !important;
+	background-color: rgba(175,175,175,0.4) !important;
+	position: absolute;
+	top: 4.5rem;
+	display: inline-block;
+	border-radius: 100%;
+	left: 50%;
+	margin-left: -0.777rem;
+	-webkit-animation: loadInit 1s infinite;
+	animation: loadInit 1s infinite;
+}
+.loadInit:before,
+.loadInit:after{
+	content: "";
+	width: 3.5rem;
+	height: 1.555rem;
+	border-radius: 1rem;
+	display: inline-block;
+	position: absolute;
+	top: 2rem;
+}
+.loadInit:before{
+	left: 50%;
+	margin-left: -2.45rem;
+	background-color: rgba(175,175,175,0.4);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.loadInit:after{
+	right: 50%;
+	margin-right: -2.45rem;
+	background-color: rgba(175,175,175,0.4);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.loadSmall{
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+@-webkit-keyframes loadInit {
+	from{top: 4.8rem}
+	to{top: 4.5rem}
+}
+@keyframes loadInit {
+	from{top: 4.8rem}
+	to{top: 4.5rem}
+}
+
+.opa1{opacity:1!important;-webkit-transition:opacity .3s ease-in}

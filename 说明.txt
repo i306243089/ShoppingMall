@@ -1,0 +1,8 @@
+swiper  //焦点图
+iscroll-lite //下拉刷新与无刷新切换页面
+alertBox.js//提示框 http://res.suning.cn/project/mvs/RES/common/script/??module/alertBox/2.0.0/alertBox.js 
+require//模块化管理
+artTemplate（腾讯）//模板引擎
+
+其他
+reactjs与angularjs

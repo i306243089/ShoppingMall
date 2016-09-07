@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+</head>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="../../css/public.css" />
+<body>
+<div class="loadInit"><span></span></div>
+</body>
+</html>
+<script src="../../lib/require.js"></script>
+<script>
+require.config({
+    paths : {
+		"jquery" : "../../lib/jquery-2.1.1",
+		"tool" : "../../js/tool" ,//工具类
+		"config" : "../../js/config" ,//配置模块
+		"public" : "../../js/public" ,//公用模块
+		"list" : "list" ,//list模块
+    }
+})
+require(['jquery',"tool",'config','list'],function($){
+	
+	//$("#test").fadeIn(); 
+	//$(".loadInit").fadeOut();
+	
+	
+	})
+</script>
